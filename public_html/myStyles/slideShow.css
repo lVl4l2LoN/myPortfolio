@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2018, 6:23:58 AM
+    Author     : lVl4rl2LoN
+*/
+
+body {
+    
+    font-family: Verdana,sans-serif;
+    margin: 0;
+
+	background-image: url("../backgrounds/playstation-controller-button-symbols.jpg");
+}
+
+*{box-sizing: border-box}
+
+.slideShow-TV{
+    display: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin:auto;
+}
+
+/*The next and previous buttons on the sides of the slides*/
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    width:auto;
+    padding: 16px;
+    margin-top:-22px;
+    color: gray;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius: 0 3px 0;
+    user-select: none;
+    
+}
+
+/*the placement of the next button is on the right side of the slide*/
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*add playstation blue background with the hover effect*/
+.prev:hover, .next:hover{
+    background-color: #003791;
+    color: black;
+}

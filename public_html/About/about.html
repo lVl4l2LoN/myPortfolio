@@ -10,7 +10,11 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type = "text/CSS" href = "../myStyles/myStyles.css">
+        <link rel = "stylesheet" type = "text/CSS" href = "../myStyles/slideShow.css">
+        
     </head>
+    
+    
     <body>
         <div>
             <ul id="menuNavUL">
@@ -20,7 +24,40 @@ and open the template in the editor.
             </ul>
         </div>
         <div> <h1>This page will say stuff about me. </h1> 
-      
+
         </div>
+        
+        <h2>The shows I watch</h2>
+         <div class="slideshow-container">
+	            
+	            <div class="slideshow-TV">
+	                <img src="../TV/parks-recreation.jpg" alt ="Parks and Recreation" style = "width: 100%">
+	            </div>
+	            
+	            <div class="slideshow-TV">
+	                <img src = "../TV/30_rock.jpg" alt = "30 Rock" style = "width:100%">
+	            </div>
+	            
+	             <div class="slideshow-TV">
+	                <img src="../TV/mr-robot.jpg" alt = "Mr. Robot" style ="width:100%">
+	            </div>
+	            
+	             <div class="slideshow-TV">
+	                <img src = "../TV/gameOfThrones.jpg" alt = "Game Of Thrones" style = "width:100%">
+	            </div>
+	            
+	             <div class="slideshow-TV">
+	                <img src = "../TV/siliconValley.jpeg" alt = "Silicon Valley" style = "width:100%">
+	            </div>
+	            
+	             <div class="slideshow-TV">
+	                <img src = "../TV/westworld.jpg" alt = "Westworld" style = "width:100%">
+	            </div>
+	            
+	            <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+	            <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+	            
+	        </div>
+        <script src = "../script/slideScript.js"></script>
     </body>
 </html>
